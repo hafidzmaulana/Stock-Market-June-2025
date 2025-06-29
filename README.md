@@ -1,12 +1,12 @@
 
-# 📊 Stock Market Analysis & Volatility Modeling (June 2025)
+# Stock Market Analysis & Volatility Modeling (June 2025)
 
-## 📝 Description
+## Description
 This project provides a comprehensive financial and volatility analysis of stock market data from June 2025. It explores key financial indicators, sector classifications, and risk assessments using price ranges and trading volumes. The goal is to support insights for investment strategy, risk profiling, and future stock recommendation systems.
 
 ---
 
-## 📦 Dataset Overview
+## Dataset Overview
 
 - **Source**: [Kaggle: pratyushpuri/stock-market-june-2025-dataset](https://www.kaggle.com/datasets/pratyushpuri/stock-market-june-2025-dataset)
 - **Format**: CSV
@@ -20,26 +20,25 @@ This project provides a comprehensive financial and volatility analysis of stock
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
-- 📈 Perform **Financial Analysis**: P/E ratio, dividend yield
-- 🔍 Conduct **Technical Analysis**: Support and resistance levels
-- ⚠️ Model **Volatility & Risk**: Based on price range and volume
-- 🧠 Prepare for **Stock Recommendation System**
+- Perform **Financial Analysis**: P/E ratio, dividend yield
+- Conduct **Technical Analysis**: Support and resistance levels
+- Model **Volatility & Risk**: Based on price range and volume
 
 ---
 
-## 📊 Key Analyses Performed
+## Key Analyses Performed
 
-### ✅ 1. Financial Analysis
+###  1. Financial Analysis
 - P/E Ratio & Dividend Yield comparisons by sector
 - Identify undervalued vs overvalued sectors
 
-### ✅ 2. Technical Analysis
+###  2. Technical Analysis
 - Computation of support & resistance using 10-day rolling window
 - Line charts for selected tickers
 
-### ✅ 3. Volatility Modeling (Risk Assessment)
+###  3. Volatility Modeling (Risk Assessment)
 - Calculate daily volatility:  
   `Volatility = (High - Low) / Low * 100`
 - Analyze average volatility and volume per ticker
@@ -48,7 +47,7 @@ This project provides a comprehensive financial and volatility analysis of stock
 
 ---
 
-## 🔍 Top 10 Most Volatile Stocks (June 2025)
+## Top 10 Most Volatile Stocks (June 2025)
 
 | Ticker | Sector                 | Avg Volatility (%) | Avg Volume     |
 |--------|------------------------|---------------------|----------------|
@@ -65,11 +64,9 @@ This project provides a comprehensive financial and volatility analysis of stock
 
 ---
 
-## 📌 Tools & Libraries Used
+## Tools & Libraries Used
 
 - Python (Pandas, NumPy)
 - Matplotlib, Seaborn
 - Scikit-learn (for clustering, optional)
 - Jupyter Notebook / Google Colab
-
----
